@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,500;1,300;1,900&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.profile-photo {
+    border-radius: 400px;
+    width: 300px;
+}
+.social-links a{
+    color: orange;
+}
+.cv-button {
+    color: black;
+}
+.cv-button i{
+    color: orange;
+}
+a {
+    text-decoration: none;
+}
