@@ -12,9 +12,22 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+.profile-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profession {
+  margin: .4rem;
+}
 .profile-photo {
     border-radius: 400px;
     width: 300px;
+}
+.social-links {
+  margin: 0;
+  padding: 10px;
 }
 .social-links a{
     color: orange;
