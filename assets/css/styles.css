@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,500;1,300;1,900&display=swap");
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
+/* 
+.color1 {color: #060606;}
+.color2 {color: #1b263a;}
+.color3 {color: #4a5e86;}
+.color4 {color: #809dd9;}
+.color5 {color: #abd0e2;} */
 
 * {
   box-sizing: border-box;
@@ -13,31 +19,41 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .profile-grid {
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.profession {
-  margin: .4rem;
+.profile-perfil{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(180deg, #809dd9 1%, #fff);
+  border-radius: 300px;
 }
 .profile-photo {
-    border-radius: 400px;
-    width: 300px;
+  border-radius: 300px;
+  width: 200px;
+}
+.profile-name {
+  margin: 2rem 0 .5rem 0;
+}
+.profession {
+  margin: 0.4rem;
 }
 .social-links {
-  margin: 0;
+  margin: 0 0 2rem;
   padding: 10px;
 }
-.social-links a{
-    color: orange;
+.social-links a {
+  color: #809dd9;
 }
 .cv-button {
-    color: black;
+  color: black;
 }
-.cv-button i{
-    color: orange;
+.cv-button i {
+  color: #809dd9;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
