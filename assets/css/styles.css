@@ -2,11 +2,19 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 /* 
-.color1 {color: #060606;}
-.color2 {color: #1b263a;}
-.color3 {color: #4a5e86;}
-.color4 {color: #809dd9;}
-.color5 {color: #abd0e2;} */
+.color1 {color: #b8d4ff;}
+.color2 {color: #fff6ff;}
+.color3 {color: #151935;}
+.color4 {color: #77767c;}
+.color5 {color: #e2e2e2;}
+#809dd9 */
+:root{
+  --color1: #b8d4ff;
+  --color2: #fff6ff;
+  --color3: #151935;
+  --color4: #77767c;
+  --color5: #e2e2e2;
+}
 
 * {
   box-sizing: border-box;
@@ -19,7 +27,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  background: #080808;
+  background: var(--color3);
   color: #fff;
 }
 .container {
@@ -39,18 +47,23 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.navbar .logo {
-  color: #abd0e2;
+.navbar .logo{
+  color: var(--color1);
   font-size: 3rem;
 }
-.menu a{
-  color: #abd0e2;
-}
-ul {
+.navbar ul li{
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin: 0 2rem 0 2rem;
+  display: inline-block;
+  margin: 0 1.8rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.menu a{
+  color: var(--color5);
+  font-weight: bold;
+}
+.navbar ul a:hover{
+  color: var(--color1);
 }
 .profile-container {
   margin-top: 3rem;
