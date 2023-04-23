@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Jonathan Monsalve - Personal Portfolio</title>
-</head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <nav class="navbar">
-                <h1 class="logo">Jonathan</h1>
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="profile-container">
-                <div class="section-1">
-                    <h2 class="text-1">Hello, my name is</h2>
-                    <h2 class="text-2">Jonathan Monsalve</h2>
-                    <h2 class="text-3">And I'm a Developer</h2>
-                </div>
-                <div class="section-2"><img src="./assets/img/profile.png" alt="Profile Image"></div>
-            </div>
-        </div>
-            
+      <!-- <div class="container"> -->
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+          <p class="logo">Jonathan</p>
+        </a>
+        <ul>
+          <li><a class="active" href="#">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- </div> -->
     </header>
 
     <main>
-
+      <div class="profile-container">
+        <div class="section-1">
+          <h2 class="text-1">Hi, I am Jonathan</h2>
+          <h3 class="text-2">Software Developer</h3>
+          <p class="text-content">
+            I am passionate about technology and the creation of attractive
+            interfaces and innovative systems.
+          </p>
+          <button class="contact-btn">Contact Me <i class="uil uil-message"></i></button>
+        </div>
+        <div class="section-2">
+          <img src="./assets/profile.png" alt="Profile Image" />
+        </div>
+      </div>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>
