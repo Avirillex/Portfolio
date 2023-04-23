@@ -185,17 +185,8 @@ a p{
   text-align: center;
 }
 
-/* SKILLS */
 
-
-/* @media (max-width: 952px){
-  .enlace{
-      padding-left: 20px;
-  }
-  nav .nav li a{
-      font-size: 16px;
-  }
-} */
+ 
 
 @media (max-width: 800px){
   .profile-container{
