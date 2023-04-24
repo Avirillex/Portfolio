@@ -423,6 +423,41 @@ a {
   border-bottom: 2px solid var(--color12);
 }
 
+/* FOOTER */
+
+.footer {
+  padding-top: 2rem;
+}
+.footer-container {
+  row-gap: 3.5rem;
+}
+.footer-bg{
+  background-color: var(--color1);
+  padding: 2rem 0 3rem;
+}
+.footer-title{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.footer-subtitle{
+  font-size: 15px;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1;
+}
+.footer-link:hover{
+  color: var(--color3);
+}
+.footer-socials{
+  padding-bottom: 30px;
+}
+
+.footer-copy{
+  text-align: center;
+}
 
 @keyframes html {
   0% {
