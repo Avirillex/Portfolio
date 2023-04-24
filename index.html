@@ -18,26 +18,21 @@
   </head>
 
   <body>
-    <header>
-      <!-- <div class="container"> -->
-      <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <a href="#" class="logo">Jonathan</a>
-        <ul class="nav">
-          <li><a class="active" href="#">Inicio</a></li>
-          <li><a href="#">Sobre Mi</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+    <header class="header">
+      <a href="#" class="logo">Jonathan</a>
+      <input type="checkbox" id="side-menu" class="side-menu">
+      <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+      <nav class="nav">
+          <ul class="menu">
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#about">Sobre Mi</a></li>
+              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Contacto</a></li>
+          </ul>
       </nav>
-      <!-- </div> -->
     </header>
-
-    <main>
+    <main id="home">
       <div class="profile-container">
         <div class="section-1">
           <h2 class="text-1">Hi, I am Jonathan</h2>
@@ -85,7 +80,7 @@
         </div>
       </section>
 
-      <section class="skills-section">
+      <section class="skills-section" id="skills">
         <h2 class="section-title">My Skills</h2>
         <div class="skill">
           <ul>
